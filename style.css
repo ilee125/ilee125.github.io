@@ -1,0 +1,88 @@
+
+body {
+background-color: #FFFDD0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFDD0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.sidenav a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #800080;
+  display: block; 
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #E6E6FA;
+  background-color: #FFFDD0;
+}
+
+.sidenav a.active {
+  background-color: #E3DAC9;
+  color: #800080;
+}
+
+main {
+  margin-left: 175px;
+  padding: 20px;
+}
+/* Make buttons rounded 
+.sidenav {
+  border-radius: 1em;
+  display: block;
+} */
+
+/* Set margins */
+p {
+  margin-right: 175px;
+  margin-left: 175px;
+}
+
+/* Justify text */
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Center headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 175px;
+  color: #800080;
+}
+
+/* Two column text & photos */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.arrow-list ::marker {
+  content: "→"; /* Unicode right arrow character */
+  color: #000000; /* Optional: Change the arrow color */
+  font-size: 1.2em; /* Optional: Adjust the arrow size */
+  margin-left: 225px;
+}
