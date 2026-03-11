@@ -39,13 +39,13 @@ background-color: #FFFDD0;
 
 .sidenav a:hover {
   color: #FFFDD0;
-  background-color: #E3DAC9;
+  background-color: #E6E6FA;
 }
 
 .sidenav a.active {
   background-color: #800080;
-  color: #E3DAC9;
-}*/
+  color: #E6E6FA;
+}
 
 main {
   margin-left: 175px;
