@@ -17,6 +17,8 @@ background-color: #FFFDD0;
   background-color: #FFFDD0;
   overflow-x: hidden;
   padding-top: 20px;
+  border-radius: 1em;
+  display: block;
 }
 
 
@@ -44,12 +46,7 @@ background-color: #FFFDD0;
 .sidenav a.active {
   background-color: #E3DAC9;
   color: #800080;
-}
-
-.sidenav {
-  border-radius: 1em;
-  display: block;
-} */
+}*/
 
 main {
   margin-left: 175px;
