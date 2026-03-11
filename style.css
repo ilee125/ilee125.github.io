@@ -8,12 +8,11 @@ background-color: #FFFDD0;
 
 
 .sidenav {
-  height: 100%;
+  height: 95%;
   width: 150px;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 10px;
   background-color: #FFFDD0;
   overflow-x: hidden;
   padding-top: 20px;
