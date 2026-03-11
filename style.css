@@ -46,35 +46,34 @@ background-color: #FFFDD0;
   color: #800080;
 }
 
-main {
-  margin-left: 175px;
-  padding: 20px;
-}
-/* Make buttons rounded 
 .sidenav {
   border-radius: 1em;
   display: block;
 } */
 
-/* Set margins */
+main {
+  margin-left: 175px;
+  padding: 20px;
+}
+
 p {
   margin-right: 175px;
   margin-left: 175px;
 }
 
-/* Justify text */
+
 div {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* Center headers */
+
 h1, h2, h3, h4, h5, h6 {
   margin-left: 175px;
   color: #800080;
 }
 
-/* Two column text & photos */
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -82,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .arrow-list ::marker {
-  content: "→"; /* Unicode right arrow character */
-  color: #000000; /* Optional: Change the arrow color */
-  font-size: 1.2em; /* Optional: Adjust the arrow size */
+  content: "→"; 
+  color: #000000; 
+  font-size: 1.2em;
   margin-left: 225px;
 }
